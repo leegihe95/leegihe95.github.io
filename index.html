@@ -4,18 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <title>Camila Lee</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <script src="https://kit.fontawesome.com/86dc656e1f.js" crossorigin="anonymous"></script>    <title>Camila Lee</title>
 </head>
 <body>
     <div id="mainContainer">
-    <section id="home">
-        <div id="animationContainer"></div>
-    </section>
-    <section id="aboutMe"></section>
-    <section id="portfolio"></section>
-    <section id="contact"></section>
+        <section id="home">
+            <div id="header">
+                <div id="headerLeft">
+                    <div id="headerAnimation">
+                        <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_tf55tfru.json"  background="transparent"  speed="5"  style="width: 30px; height: 30px;"  loop controls autoplay></lottie-player> 
+                    </div>
+                    <p>Hello there!</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#aboutMe">About Me</a></li>
+                        <li><a href="#skillSet">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <div id="centralAnimation">
+                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_9evakyqx.json"  background="transparent"  speed="5"  style="width: 30px; height: 30px;"  loop controls autoplay></lottie-player>
+                </div>
+            </div>
+        </section>
+        <section id="aboutMe">
+            <h1 class="title_sec">About me</h1>
+			<hr class="longLine"/>
+            <div id="central">
+                <div>
+                    <img id="profilePicture" src="./assets/images/profile_camila.jpeg" alt="Profile Picture">
+                </div>
+                <div id="profileContent">
+                    <h2>I'm Camila Lee,</h2>
+                    <h3>a Front-End Developer born and raised in São Paulo, Brazil.<img class="flag" src="https://img.icons8.com/color/48/undefined/brazil.png"/>
+                    <br> Currently based in Seoul, South Korea.<img class="flag" src="https://img.icons8.com/color/100/undefined/south-korea.png"/></h3>
+                    <h4>My biggest motivation in working with web-development is to be able to use my creativity, and develop my problem-solving skills, while working collaboratively with others. In the long-run, I aim to expand my skillset towards mobile apps, with languages such as Swift, and also acquire UX/UI design knowledge for a complete front-end repertoire.</h4>
+                </div>
+            </div>
+            
+        </section>
+        <section id="skillSet">
+            <h1 class="title_sec">Skills</h1>
+			<hr class="longLine"/>
+            <div id="all_cards"></div>
+        </section>
+        <section id="portfolio">
+            <h1 class="title_sec">Portfolio</h1>
+			<hr class="longLine"/>
+
+        </section>
+        <section id="contact">
+            <h1 class="title_sec">Contact me</h1>
+			<hr class="longLine"/>
+
+        </section>
     </div>
 
     <script src="./script.js"></script>

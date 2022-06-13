@@ -2,26 +2,136 @@
     font-family: roboto-mono;
     src: url(./assets/fonts/RobotoMono-Medium.ttf);
 }
-* {
-    font-family: roboto-mono;
+/* GENERAL STYLING */
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
-
 body{
     margin: 0;
-    background-color: #B9EEEB;@font-face {
+    background-color: #B9EEEB;
     font-family: roboto-mono;
-    src: url(./assets/fonts/RobotoMono-Medium.ttf);
 }
+section {
+    scroll-snap-align: start;
+    height: 100vh;
 }
-
 #mainContainer{
     width: 90%;
-    height: 100vh;
     margin: auto;
     background-color: white;
 }
 
+/*************** HOME SECTION ***************/
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#headerLeft {
+    display: flex;
+}
+#headerAnimation{
+    width: 5rem;
+}
+#headerLeft p {
+    font-size: 25px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-left: 0px;
+}
+ul li {
+    margin: 0 15px;
+    font-size: 20px;
+}
+ul li:hover{
+    text-decoration: underline;
+}
 
-h1, h2{
-    color: #263547;
+li a {
+    text-decoration: none;
+    color: black;
+}
+#centralAnimation{
+    width: 80%;
+    margin: auto;
+}
+
+/*************** ABOUT ME ***************/
+#central {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#profilePicture {
+    width: 400px;
+}
+#profileContent {
+    width: 60%;
+}
+
+.flag {
+    width: 2rem;
+}
+h4 {
+    text-align: justify;
+}
+
+
+h1 {
+    text-align: center;
+}
+.longLine {
+    width: 80%;
+    margin-bottom: 150px;
+}
+
+#skills {
+    width: 80%;
+    padding-top: 80px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#skills img{
+    height: 100px;
+}
+
+.title_sec {
+    padding-top: 20px;
+}
+
+
+
+#all_cards{
+    margin: 0 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.one_card {
+    border: 1px solid lightgrey;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.one_card img {
+    width: 125px;
+    height: 125px;
 }

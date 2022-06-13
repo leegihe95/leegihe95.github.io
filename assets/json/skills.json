@@ -1,0 +1,37 @@
+{
+    "skills": [
+        {
+            "title": "HTML5",
+            "image_path": "./assets/logos/html.png"
+        },
+        {
+            "title": "CSS3",
+            "image_path": "./assets/logos/css3.png"
+        },
+        {
+            "title": "JavaScript",
+            "image_path": "./assets/logos/javascript.png"
+        },
+        {
+            "title": "PHP",
+            "image_path": "./assets/logos/php.png"
+        },
+        {
+            "title": "mySQL",
+            "image_path": "./assets/logos/mysql.png"
+        },
+        {
+            "title": "Git",
+            "image_path": "./assets/logos/git.png"
+        },
+        {
+            "title": "GitHub",
+            "image_path": "./assets/logos/github.png"
+        },
+        {
+            "title": "React",
+            "image_path": "./assets/logos/react-s.png"
+        }
+        
+    ]
+}
