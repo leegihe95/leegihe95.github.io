@@ -186,3 +186,46 @@ h4 {
     background-color: white;
     padding: 5px 8px;
 }
+
+/********** CONTACT ME **********/
+#contactDiv{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#email a {
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px 32px;
+    border: 3px solid black;
+}
+#email a:hover {
+    background-color: black;
+    color: white;
+}
+#linkedin a {
+    border-radius: 50px;
+    color: #0A66C2;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px 20px;
+    border: 3px solid #0A66C2;
+}
+.fa-linkedin{
+    color: #0A66C2;
+    font-size: 30px;
+}
+#linkedin a:hover {
+    background-color: #0A66C2;
+    color: white;
+}
+#linkedin a:hover .fa-linkedin{
+    color: white;
+}
