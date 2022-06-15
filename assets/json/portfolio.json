@@ -1,0 +1,14 @@
+{
+    "portfolio": [
+        {
+            "title": "Weather Website",
+            "image_path": "./assets/images/weather_website.jpg",
+            "code": "https://github.com/leegihe95/weather_website"
+        },
+        {
+            "title": "proPhoto",
+            "image_path": "./assets/images/pro_photo.jpg",
+            "code": "https://github.com/leegihe95/proPhoto"
+        }
+    ]
+}

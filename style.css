@@ -20,8 +20,18 @@ section {
     width: 90%;
     margin: auto;
     background-color: white;
+    box-shadow: 1px 1px 30px gray;
 }
-
+h1 {
+    text-align: center;
+}
+.longLine {
+    width: 80%;
+    margin-bottom: 150px;
+}
+.title_sec {
+    padding-top: 20px;
+}
 /*************** HOME SECTION ***************/
 #header {
     display: flex;
@@ -33,9 +43,7 @@ section {
 }
 #headerLeft {
     display: flex;
-}
-#headerAnimation{
-    width: 5rem;
+    align-items: center;
 }
 #headerLeft p {
     font-size: 25px;
@@ -54,7 +62,6 @@ ul li {
 ul li:hover{
     text-decoration: underline;
 }
-
 li a {
     text-decoration: none;
     color: black;
@@ -66,36 +73,45 @@ li a {
 
 /*************** ABOUT ME ***************/
 #central {
-    width: 80%;
+    width: 75%;
     margin: 50px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
+#profilePicWrapper {
+    max-height: 450px;
+}
 #profilePicture {
-    width: 400px;
+    width: 300px;
+    background-color: gray;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(2px 4px 6px black);
+}
+#profileDec {
+    position: relative;
+    left: -27px;
+    bottom: 180px;
+    z-index: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #B9EEEB;;
 }
 #profileContent {
-    width: 60%;
-}
-
-.flag {
-    width: 2rem;
+    width: 550px;
+    height: 450px;
 }
 h4 {
     text-align: justify;
 }
-
-
-h1 {
-    text-align: center;
-}
-.longLine {
-    width: 80%;
-    margin-bottom: 150px;
+.flag {
+    width: 1.8rem;
 }
 
+
+/********** SKILLS **********/
 #skills {
     width: 80%;
     padding-top: 80px;
@@ -104,18 +120,11 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
 }
-
 #skills img{
     height: 100px;
 }
-
-.title_sec {
-    padding-top: 20px;
-}
-
-
-
 #all_cards{
+    width: 70%;
     margin: 0 15%;
     display: flex;
     flex-wrap: wrap;
@@ -123,6 +132,8 @@ h1 {
 }
 .one_card {
     border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
     width: 200px;
     height: 200px;
     margin: 10px;
@@ -134,4 +145,44 @@ h1 {
 .one_card img {
     width: 125px;
     height: 125px;
+}
+
+/********** PORTFOLIO **********/
+#port_cards {
+    width: 70%;
+    margin: 0 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.port_card {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    width: 430px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.title {
+    text-align: center;
+}
+.code{
+    display: none;
+    color: black;
+}
+.port_card:hover {
+    filter: grayscale(1);
+    
+}
+.port_card:hover .code {
+    display: block;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px 8px;
 }
