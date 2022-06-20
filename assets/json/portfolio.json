@@ -9,6 +9,16 @@
             "title": "proPhoto",
             "image_path": "./assets/images/pro_photo.jpg",
             "code": "https://github.com/leegihe95/proPhoto"
+        },
+        {
+            "title": "Live Minichat",
+            "image_path": "./assets/images/minichat.jpg",
+            "code": "https://github.com/leegihe95/minichat"
+        },
+        {
+            "title": "Articles",
+            "image_path": "./assets/images/articles.jpg",
+            "code": "https://github.com/leegihe95/articles"
         }
     ]
 }
