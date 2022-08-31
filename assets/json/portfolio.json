@@ -1,24 +1,29 @@
 {
-    "portfolio": [
-        {
-            "title": "Weather Website",
-            "image_path": "./assets/images/weather_website.jpg",
-            "code": "https://github.com/leegihe95/weather_website"
-        },
-        {
-            "title": "proPhoto",
-            "image_path": "./assets/images/pro_photo.jpg",
-            "code": "https://github.com/leegihe95/proPhoto"
-        },
-        {
-            "title": "Live Minichat",
-            "image_path": "./assets/images/minichat.jpg",
-            "code": "https://github.com/leegihe95/minichat"
-        },
-        {
-            "title": "Articles",
-            "image_path": "./assets/images/articles.jpg",
-            "code": "https://github.com/leegihe95/articles"
-        }
-    ]
+	"portfolio": [
+		{
+			"title": "Weather Website",
+			"image_path": "./assets/images/weather_website.jpg",
+			"code": "https://github.com/leegihe95/weather_website"
+		},
+		{
+			"title": "proPhoto",
+			"image_path": "./assets/images/pro_photo.jpg",
+			"code": "https://github.com/leegihe95/proPhoto"
+		},
+		{
+			"title": "Live Minichat",
+			"image_path": "./assets/images/minichat.jpg",
+			"code": "https://github.com/leegihe95/minichat"
+		},
+		{
+			"title": "Articles",
+			"image_path": "./assets/images/articles.jpg",
+			"code": "https://github.com/leegihe95/articles"
+		},
+		{
+			"title": "React Notes App",
+			"image_path": "./assets/images/react-notes-app.jpg",
+			"code": "https://github.com/leegihe95/react-notes-app"
+		}
+	]
 }
