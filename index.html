@@ -10,23 +10,15 @@
 			src="https://kit.fontawesome.com/86dc656e1f.js"
 			crossorigin="anonymous"
 		></script>
+
 		<title>Camila Lee</title>
 	</head>
 	<body>
 		<div id="mainContainer">
-			<section id="home">
-				<div id="header">
+			<div id="header">
+				<div id="headerBody">
 					<div id="headerLeft">
-						<div id="headerAnimation">
-							<lottie-player
-								src="https://assets10.lottiefiles.com/packages/lf20_vknkn9gx.json"
-								background="transparent"
-								speed="1"
-								style="width: 65px; height: 65px"
-								loop
-								autoplay
-							></lottie-player>
-						</div>
+						<div id="headerIcon"><p>C</p></div>
 						<p>Hello there!</p>
 					</div>
 					<nav>
@@ -38,7 +30,10 @@
 						</ul>
 					</nav>
 				</div>
-				<div>
+				<hr />
+			</div>
+			<section id="home" class="reveal first">
+				<div id="animationWrapper">
 					<div id="centralAnimation">
 						<lottie-player
 							src="https://assets5.lottiefiles.com/packages/lf20_9evakyqx.json"
@@ -50,12 +45,14 @@
 					</div>
 				</div>
 			</section>
-			<section id="aboutMe">
-				<h1 class="title_sec">About me</h1>
-				<hr class="longLine" />
+			<section id="aboutMe" class="reveal">
 				<div id="central">
 					<div id="profileContent">
-						<h2>I'm Camila Lee.</h2>
+						<div id="profileHeader">
+							<h1>About me.</h1>
+							<hr />
+						</div>
+						<h2>My name is Camila Lee.</h2>
 						<h3>
 							A Front-End Developer from São Paulo, Brazil
 							<img
@@ -69,7 +66,6 @@
 								src="https://img.icons8.com/color/100/undefined/south-korea.png"
 							/>
 						</h3>
-						<br />
 						<h4>
 							My biggest motivation in working with
 							web-development is to be able to use creativity, and
@@ -86,24 +82,33 @@
 							src="./assets/images/profile_vertical.jpg"
 							alt="Profile Picture"
 						/>
-						<div id="profileDec"></div>
+						<div class="profileDeco deco-top"></div>
+						<div class="profileDeco deco-bottom"></div>
 					</div>
 				</div>
 			</section>
-			<section id="skillSet">
-				<h1 class="title_sec">Skills</h1>
-				<hr class="longLine" />
-				<div id="all_cards"></div>
+			<section id="skillSet" class="reveal">
+				<div id="skillWrapper">
+					<div id="skillsHeader">
+						<hr />
+						<h1>Skills.</h1>
+					</div>
+					<div id="all_cards"></div>
+				</div>
 			</section>
-			<section id="portfolio">
-				<h1 class="title_sec">Portfolio</h1>
-				<hr class="longLine" />
-				<div id="port_cards"></div>
+			<section id="portfolio" class="reveal">
+				<div id="portfolioContainer">
+					<div id="portfolioHeader">
+						<h1>My Projects.</h1>
+						<hr />
+					</div>
+					<div id="port_cards"></div>
+				</div>
 			</section>
-			<section id="contact">
-				<h1 class="title_sec">Contact me</h1>
-				<hr class="longLine" />
+			<section id="contact" class="reveal">
 				<div id="contactDiv">
+					<h1 class="title_sec">Contact me.</h1>
+					<hr class="longLine" />
 					<div id="email">
 						<a href="mailto:leegihe95@gmail.com"
 							><i class="fa-solid fa-envelope"></i> Send me an

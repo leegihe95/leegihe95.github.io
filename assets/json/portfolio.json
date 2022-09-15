@@ -2,28 +2,43 @@
 	"portfolio": [
 		{
 			"title": "Weather Website",
-			"image_path": "./assets/images/weather_website.jpg",
-			"code": "https://github.com/leegihe95/weather_website"
+			"description": "Simple weather page using third party API and AJAX requests to get weather results in JSON format with city names and countries. The challenge of the project was to integrate an auto-complete feature which displays a list of matching results.",
+			"techs": ["HTML5", "CSS3", "JavaScript"],
+			"website": "",
+			"code": "https://github.com/leegihe95/weather_website",
+			"image_path": "./assets/images/weather_website.jpg"
 		},
 		{
 			"title": "proPhoto",
-			"image_path": "./assets/images/pro_photo.jpg",
-			"code": "https://github.com/leegihe95/proPhoto"
+			"description": "Full-stack group project consisted in creating a web social media for photographers to sell their pictures online. Users information and pictures were stored in local and relational database. My main focus was to develop the public and private profile pages. The project was developed with Git/Github, Trello and using Agile Methodology.",
+			"techs": ["HTML5", "CSS3", "JavaScript", "PHP", "mySQL"],
+			"website": "",
+			"code": "https://github.com/leegihe95/proPhoto",
+			"image_path": "./assets/images/pro_photo.jpg"
 		},
 		{
 			"title": "Live Minichat",
-			"image_path": "./assets/images/minichat.jpg",
-			"code": "https://github.com/leegihe95/minichat"
+			"description": "Full-stack projects of prototypes of a live chatroom and comments section on articles. Use of HTML, CSS, JavaScript, PHP and mySQL. AJAX request to refresh chat screen and view different amount of messages.",
+			"techs": ["HTML5", "CSS3", "JavaScript", "PHP", "mySQL"],
+			"website": "",
+			"code": "https://github.com/leegihe95/minichat",
+			"image_path": "./assets/images/minichat.jpg"
 		},
 		{
 			"title": "Articles",
-			"image_path": "./assets/images/articles.jpg",
-			"code": "https://github.com/leegihe95/articles"
+			"description": "Full-stack projects of prototypes of a live chatroom and comments section on articles. Use of HTML, CSS, JavaScript, PHP and mySQL. Fetch data from relational database in MySQL to retrieve users' information and comments.",
+			"techs": ["HTML5", "CSS3", "JavaScript", "PHP", "mySQL"],
+			"website": "",
+			"code": "https://github.com/leegihe95/articles",
+			"image_path": "./assets/images/articles.jpg"
 		},
 		{
 			"title": "React Notes App",
-			"image_path": "./assets/images/react-notes-app.jpg",
-			"code": "https://github.com/leegihe95/react-notes-app"
+			"description": "React.js project made with function components to create a notes app. The notes are saved in the local storage accessed through the useEffect() hook. Conditional rendering is used to enable dark/light mode and display Start/Notes page. Used map() to display notes list, find() to display selected note, and filter() to update notes list when deleted. New and updated notes are bumped to the top/bottom of the list - depending on the sorting option - with current date/time, using spread operator.",
+			"techs": ["HTML5", "CSS3", "JavaScript", "React.js"],
+			"website": "https://leegihe95-reactnotesapp.netlify.app/",
+			"code": "https://github.com/leegihe95/react-notes-app",
+			"image_path": "./assets/images/react-notes-app.jpg"
 		}
 	]
 }
