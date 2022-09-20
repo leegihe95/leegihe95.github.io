@@ -7,22 +7,22 @@ window.onload = function () {
 		if (xhr.status == 200) {
 			let data = JSON.parse(xhr.response);
 
-			let all_cards = document.getElementById("all_cards");
+			let skills_cards = document.getElementById("skills_cards");
 			let arr_len = data.skills.length;
 
 			for (let i = 0; i < arr_len; i++) {
-				let one_card = document.createElement("div");
+				let skill_card = document.createElement("div");
 
-				one_card.classList.add("one_card");
+				skill_card.classList.add("skill_card");
 				if (i % 2 !== 0) {
-					one_card.classList.add("snake");
+					skill_card.classList.add("dodged");
 				}
 
 				let image = document.createElement("img");
 				image.src = data.skills[i].image_path;
 
-				one_card.appendChild(image);
-				all_cards.appendChild(one_card);
+				skill_card.appendChild(image);
+				skills_cards.appendChild(skill_card);
 			}
 		}
 	});
@@ -65,6 +65,8 @@ window.onload = function () {
 				port_card_a.appendChild(port_card_background);
 				port_card_image.appendChild(port_card_a);
 
+				let port_card_desc_items = document.createElement("div");
+				port_card_desc_items.className = "port_card_desc_items";
 				let port_card_desc = document.createElement("div");
 				port_card_desc.className = "port_card_desc";
 
@@ -72,21 +74,18 @@ window.onload = function () {
 				title.className = "title";
 				title.textContent = `${data.portfolio[i].title}`;
 
-				let description_wrapper = document.createElement("div");
-				description_wrapper.className = "description_wrapper";
 				let description = document.createElement("p");
 				description.className = "description";
 				description.textContent = `${data.portfolio[i].description}`;
-				description_wrapper.appendChild(description);
 
-				let techsUsed = document.createElement("div");
-				techsUsed.className = "techsUsed";
+				let techs_wrapper = document.createElement("div");
+				techs_wrapper.className = "techs_wrapper";
 				let techs = data.portfolio[i].techs;
 				for (const tech of techs) {
-					let techDiv = document.createElement("div");
-					techDiv.className = "techDiv";
-					techDiv.textContent = tech;
-					techsUsed.appendChild(techDiv);
+					let tech_div = document.createElement("div");
+					tech_div.className = "tech_div";
+					tech_div.textContent = tech;
+					techs_wrapper.appendChild(tech_div);
 				}
 
 				let cta_wrapper = document.createElement("div");
@@ -113,19 +112,26 @@ window.onload = function () {
 
 				cta_wrapper.append(website_button, code_button);
 
-				port_card_desc.append(
+				port_card_desc_items.append(
 					title,
-					description_wrapper,
-					techsUsed,
+					description,
+					techs_wrapper,
 					cta_wrapper
 				);
 
 				port_cards.appendChild(port_card_wrapper);
 				port_card_wrapper.appendChild(port_card_inner);
+				port_card_inner.appendChild(port_card_desc);
 				if (i % 2 === 0) {
-					port_card_inner.append(port_card_image, port_card_desc);
+					port_card_desc.append(
+						port_card_image,
+						port_card_desc_items
+					);
 				} else {
-					port_card_inner.append(port_card_desc, port_card_image);
+					port_card_desc.append(
+						port_card_desc_items,
+						port_card_image
+					);
 				}
 			}
 		}
@@ -137,7 +143,9 @@ function reveal() {
 	var reveals = document.querySelectorAll(".reveal");
 	for (var i = 0; i < reveals.length; i++) {
 		var windowHeight = window.innerHeight;
+		console.log(windowHeight);
 		var elementTop = reveals[i].getBoundingClientRect().top;
+		console.log(elementTop);
 		var elementVisible = 150;
 
 		if (elementTop < windowHeight - elementVisible) {

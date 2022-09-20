@@ -1,44 +1,44 @@
 {
 	"portfolio": [
 		{
-			"title": "Weather Website",
-			"description": "Simple weather page using third party API and AJAX requests to get weather results in JSON format with city names and countries. The challenge of the project was to integrate an auto-complete feature which displays a list of matching results.",
-			"techs": ["HTML5", "CSS3", "JavaScript"],
-			"website": "",
-			"code": "https://github.com/leegihe95/weather_website",
-			"image_path": "./assets/images/weather_website.jpg"
+			"title": "React Notes App",
+			"description": "React.js project made with function components and hooks (useEffect, useState) to create a notes app. The notes are saved in local storage so that the user can access them across multiple browsing sessions. The app includes a light/dark mode and sort by date (oldest to newest and vice-versa) functionality. For a better user experience, new and updated notes are bumped to the top or bottom of the list - depending on the sorting option - with a timestamp included. This app implements many features of React development, making extensive use of conditional rendering, spread operators, and array methods such as map(), filter() and find().",
+			"techs": ["HTML5", "CSS3", "JavaScript", "React.js"],
+			"website": "https://leegihe95-reactnotesapp.netlify.app/",
+			"code": "https://github.com/leegihe95/react-notes-app",
+			"image_path": "./assets/images/react-notes-app.jpg"
 		},
 		{
 			"title": "proPhoto",
-			"description": "Full-stack group project consisted in creating a web social media for photographers to sell their pictures online. Users information and pictures were stored in local and relational database. My main focus was to develop the public and private profile pages. The project was developed with Git/Github, Trello and using Agile Methodology.",
+			"description": "Full-stack group project consisted in creating a web social media for photographers to sell their pictures online. Users' information and pictures were stored in local and relational database. My main focus was to develop the public and private profile pages using HTML, CSS and JavaScript. Features to the profile pages include: update profile picture, upload and edit information of pictures for sale, edit user information and view bookmarked and sold pictures. The project was developed with Git/Github, managed via Trello and Agile Methodology (Scrum Framework).",
 			"techs": ["HTML5", "CSS3", "JavaScript", "PHP", "mySQL"],
 			"website": "",
 			"code": "https://github.com/leegihe95/proPhoto",
 			"image_path": "./assets/images/pro_photo.jpg"
 		},
 		{
+			"title": "Weather Website",
+			"description": "Simple weather app using HTML, CSS and JavaScript. The goal of the project was to successfully fetch data in JSON format from a third party API via AJAX request to display the current weather and the forecast for the following four days. The challenge of the project was to integrate an auto-complete feature which displays a list of matching cities and their countries.",
+			"techs": ["HTML5", "CSS3", "JavaScript"],
+			"website": "",
+			"code": "https://github.com/leegihe95/weather_website",
+			"image_path": "./assets/images/weather_website.jpg"
+		},
+		{
 			"title": "Live Minichat",
-			"description": "Full-stack projects of prototypes of a live chatroom and comments section on articles. Use of HTML, CSS, JavaScript, PHP and mySQL. AJAX request to refresh chat screen and view different amount of messages.",
+			"description": "Full-stack project of a live chatroom prototypes. AJAX request and SQL queries allows users to refresh the chat screen with new messages, as well as view different amount of past messages stored in the database.",
 			"techs": ["HTML5", "CSS3", "JavaScript", "PHP", "mySQL"],
 			"website": "",
 			"code": "https://github.com/leegihe95/minichat",
 			"image_path": "./assets/images/minichat.jpg"
 		},
 		{
-			"title": "Articles",
-			"description": "Full-stack projects of prototypes of a live chatroom and comments section on articles. Use of HTML, CSS, JavaScript, PHP and mySQL. Fetch data from relational database in MySQL to retrieve users' information and comments.",
-			"techs": ["HTML5", "CSS3", "JavaScript", "PHP", "mySQL"],
+			"title": "Articles Blog",
+			"description": "Full-stack project of an Articles Blog prototype that can host comments from readers. The objective of this project was to handle relational database in mySQL and fetch data via SQL queries to retrieve users' information and comments.",
+			"techs": ["HTML5", "CSS3", "PHP", "mySQL"],
 			"website": "",
 			"code": "https://github.com/leegihe95/articles",
 			"image_path": "./assets/images/articles.jpg"
-		},
-		{
-			"title": "React Notes App",
-			"description": "React.js project made with function components to create a notes app. The notes are saved in the local storage accessed through the useEffect() hook. Conditional rendering is used to enable dark/light mode and display Start/Notes page. Used map() to display notes list, find() to display selected note, and filter() to update notes list when deleted. New and updated notes are bumped to the top/bottom of the list - depending on the sorting option - with current date/time, using spread operator.",
-			"techs": ["HTML5", "CSS3", "JavaScript", "React.js"],
-			"website": "https://leegihe95-reactnotesapp.netlify.app/",
-			"code": "https://github.com/leegihe95/react-notes-app",
-			"image_path": "./assets/images/react-notes-app.jpg"
 		}
 	]
 }

@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./style.css" />
-		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 		<script
 			src="https://kit.fontawesome.com/86dc656e1f.js"
 			crossorigin="anonymous"
@@ -16,56 +15,51 @@
 	<body>
 		<div id="mainContainer">
 			<div id="header">
-				<div id="headerBody">
-					<div id="headerLeft">
-						<div id="headerIcon"><p>C</p></div>
-						<p>Hello there!</p>
+				<div id="header_container">
+					<div>
+						<div id="header_icon"><p>C</p></div>
 					</div>
 					<nav>
 						<ul>
-							<li><a href="#aboutMe">About Me</a></li>
-							<li><a href="#skillSet">Skills</a></li>
-							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#about_me">About Me</a></li>
+							<li><a href="#skills_set">Skills</a></li>
+							<li><a href="#portfolio">My Projects</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
-				<hr />
 			</div>
 			<section id="home" class="reveal first">
-				<div id="animationWrapper">
-					<div id="centralAnimation">
-						<lottie-player
-							src="https://assets5.lottiefiles.com/packages/lf20_9evakyqx.json"
-							background="transparent"
-							speed="1"
-							hover
-							autoplay
-						></lottie-player>
+				<div id="home_container">
+					<div id="home_content">
+						<div id="home_intro">
+							<p>Hi, my name is</p>
+							<h1>Camila Lee.</h1>
+							<h1>I build clean and functional websites.</h1>
+							<h3>
+								I'm a front-end developer who enjoys building
+								fluid and interactive websites. Currently, I'm
+								focused on building interactive single-page
+								applications with React.js.
+							</h3>
+						</div>
+						<div>
+							<div id="avatar_wrapper">
+								<img
+									src="./assets/images/casual-life-3d-young-woman-working-on-laptop-and-showing-v-sign.png"
+									alt="Girl working v-sign"
+								/>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
-			<section id="aboutMe" class="reveal">
-				<div id="central">
-					<div id="profileContent">
-						<div id="profileHeader">
-							<h1>About me.</h1>
-							<hr />
+			<section id="about_me" class="reveal">
+				<div id="about_me_container">
+					<div id="about_me_content">
+						<div id="profile_header">
+							<h1 class="section_title">About me.</h1>
 						</div>
-						<h2>My name is Camila Lee.</h2>
-						<h3>
-							A Front-End Developer from São Paulo, Brazil
-							<img
-								class="flag"
-								src="https://img.icons8.com/color/48/undefined/brazil.png"
-							/>
-							<br />
-							Currently based in Seoul, South Korea
-							<img
-								class="flag"
-								src="https://img.icons8.com/color/100/undefined/south-korea.png"
-							/>
-						</h3>
 						<h4>
 							My biggest motivation in working with
 							web-development is to be able to use creativity, and
@@ -76,52 +70,51 @@
 							front-end repertoire.
 						</h4>
 					</div>
-					<div id="profilePicWrapper">
+					<div id="profile_pic_wrapper">
 						<img
-							id="profilePicture"
 							src="./assets/images/profile_vertical.jpg"
 							alt="Profile Picture"
 						/>
-						<div class="profileDeco deco-top"></div>
-						<div class="profileDeco deco-bottom"></div>
+						<div class="profile_deco deco-top"></div>
+						<div class="profile_deco deco-bottom"></div>
 					</div>
 				</div>
 			</section>
-			<section id="skillSet" class="reveal">
-				<div id="skillWrapper">
-					<div id="skillsHeader">
-						<hr />
-						<h1>Skills.</h1>
+			<section id="skills_set" class="reveal">
+				<div id="skills_container">
+					<div id="skills_header">
+						<h1 class="section_title">Skills.</h1>
 					</div>
-					<div id="all_cards"></div>
+					<div id="skills_cards"></div>
 				</div>
 			</section>
 			<section id="portfolio" class="reveal">
-				<div id="portfolioContainer">
-					<div id="portfolioHeader">
-						<h1>My Projects.</h1>
-						<hr />
+				<div id="portfolio_container">
+					<div id="portfolio_header">
+						<h1 class="section_title">My Projects.</h1>
 					</div>
 					<div id="port_cards"></div>
 				</div>
 			</section>
 			<section id="contact" class="reveal">
-				<div id="contactDiv">
-					<h1 class="title_sec">Contact me.</h1>
-					<hr class="longLine" />
-					<div id="email">
-						<a href="mailto:leegihe95@gmail.com"
-							><i class="fa-solid fa-envelope"></i> Send me an
-							e-mail</a
-						>
-					</div>
-					<div id="linkedin">
-						<a
-							href="http://www.linkedin.com/in/camilaglee"
-							target="_blank"
-							><i class="fa-brands fa-linkedin"></i> Find me on
-							LinkedIn</a
-						>
+				<div id="contact_container">
+					<div id="contactDiv">
+						<h1 class="section_title">Contact me.</h1>
+						<hr class="longLine" />
+						<div id="email">
+							<a href="mailto:leegihe95@gmail.com"
+								><i class="fa-solid fa-envelope"></i> Send me an
+								e-mail</a
+							>
+						</div>
+						<div id="linkedin">
+							<a
+								href="http://www.linkedin.com/in/camilaglee"
+								target="_blank"
+								><i class="fa-brands fa-linkedin"></i> Find me
+								on LinkedIn</a
+							>
+						</div>
 					</div>
 				</div>
 			</section>
