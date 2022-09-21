@@ -635,6 +635,7 @@ li a {
 	}
 	#home_intro h3 {
 		font-size: 2vw;
+		width: 100%;
 	}
 	#avatar_wrapper {
 		width: 15vh;
@@ -721,7 +722,7 @@ li a {
 		text-decoration-thickness: 1px;
 	}
 	.description {
-		font-size: 1.3vw;
+		font-size: 1.2vw;
 	}
 	.tech_div {
 		margin: 2px;
