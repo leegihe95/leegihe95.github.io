@@ -608,11 +608,24 @@ li a {
 		height: 3vh;
 		border-radius: 0 1vh;
 	}
+	ul li {
+		font-size: 2.5vw;
+	}
 	#home_container {
-		margin: 34% auto auto auto;
+		margin: 30% auto auto auto;
+	}
+	#home_intro {
+		width: 45vw;
+	}
+	#home_intro p {
+		font-size: 2vw;
 	}
 	#home_intro h1 {
 		margin: 5px auto;
+		font-size: 4.5vw;
+	}
+	#home_intro h3 {
+		font-size: 2vw;
 	}
 	#avatar_wrapper {
 		width: 15vh;
@@ -621,15 +634,18 @@ li a {
 	#profile_header h1::after {
 		width: 20vw;
 		top: -10px;
-		left: 20vw;
+		left: 18vw;
 	}
 	#about_me_content {
-		width: 45%;
+		width: 50%;
 		padding: 1vh;
 	}
 	#about_me_content h4 {
 		line-height: 1.2vh;
-		font-size: 1.5vw;
+		font-size: 2vw;
+	}
+	#profile_pic_wrapper img {
+		width: 25vw;
 	}
 	.profile_deco {
 		border-radius: 5px;
@@ -658,7 +674,7 @@ li a {
 		margin-top: 10px;
 	}
 	.skill_card img {
-		width: 50%;
+		width: 75%;
 	}
 	#portfolio_header h1::after {
 		top: -11px;
