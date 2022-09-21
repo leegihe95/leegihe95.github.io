@@ -348,7 +348,6 @@ li a {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	border-radius: 1vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -400,7 +399,7 @@ li a {
 }
 .cta_button {
 	margin: 5px;
-	background-color: white;
+	background-color: transparent;
 	border: 1px solid transparent;
 }
 .fa-arrow-up-right-from-square,
@@ -654,7 +653,7 @@ li a {
 		padding: 1vh;
 	}
 	#about_me_content h4 {
-		line-height: 1.2vh;
+		line-height: 1.4vh;
 		font-size: 2vw;
 	}
 	#profile_pic_wrapper img {
@@ -716,6 +715,10 @@ li a {
 		right: 0;
 		margin-left: 3vw;
 	}
+	.port_card_desc_items {
+		width: 90%;
+		height: 90%;
+	}
 	.title {
 		font-size: 1.1vh;
 		margin: 5px;
@@ -726,6 +729,7 @@ li a {
 	}
 	.tech_div {
 		margin: 2px;
+		padding: 1px 2px;
 	}
 	.cta_button {
 		margin: 0;
