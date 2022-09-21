@@ -144,7 +144,7 @@ li a {
 	line-height: 4vw;
 }
 #home_intro h3 {
-	width: 33vw;
+	width: 95%;
 	color: #065471;
 	font-size: 1.1vw;
 	font-weight: normal;
@@ -431,7 +431,7 @@ li a {
 	margin: 5vh;
 	border-radius: 50px;
 	background-color: white;
-	min-width: 22vw;
+	min-width: 30%;
 }
 #email {
 	border: 3px solid black;
@@ -487,8 +487,14 @@ li a {
 	#home_container {
 		margin: 23% auto auto auto;
 	}
+	#home_intro p {
+		font-size: 1.5vw;
+	}
 	#home_intro h1 {
 		margin: 5px auto;
+	}
+	#home_intro h3 {
+		font-size: 1.5vw;
 	}
 	#avatar_wrapper {
 		width: 15vh;
@@ -536,7 +542,7 @@ li a {
 		margin-top: 10px;
 	}
 	.skill_card img {
-		width: 50%;
+		width: 75%;
 	}
 	#portfolio_header h1::after {
 		top: -15px;
@@ -573,6 +579,9 @@ li a {
 		font-size: 1.1vh;
 		margin: 5px;
 		text-decoration-thickness: 1px;
+	}
+	.description {
+		font-size: 1.1vw;
 	}
 	.tech_div {
 		margin: 2px;
@@ -631,6 +640,9 @@ li a {
 		width: 15vh;
 		height: 15vh;
 	}
+	#avatar_wrapper img {
+		bottom: 1vh;
+	}
 	#profile_header h1::after {
 		width: 20vw;
 		top: -10px;
@@ -674,7 +686,7 @@ li a {
 		margin-top: 10px;
 	}
 	.skill_card img {
-		width: 75%;
+		width: 70%;
 	}
 	#portfolio_header h1::after {
 		top: -11px;
@@ -708,6 +720,9 @@ li a {
 		margin: 5px;
 		text-decoration-thickness: 1px;
 	}
+	.description {
+		font-size: 1.3vw;
+	}
 	.tech_div {
 		margin: 2px;
 	}
@@ -717,12 +732,18 @@ li a {
 	#email,
 	#linkedin {
 		margin: 2vh;
-		min-width: 25vw;
+		min-width: 50%;
 	}
 	#email {
 		border: 1px solid black;
 	}
 	#linkedin {
 		border: 1px solid #0a66c2;
+	}
+	#email a {
+		font-size: 2.5vw;
+	}
+	#linkedin a {
+		font-size: 2.5vw;
 	}
 }
