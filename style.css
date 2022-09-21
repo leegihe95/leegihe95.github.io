@@ -43,7 +43,7 @@ body {
 	align-items: center;
 }
 .section_title {
-	font-size: 1.6vw;
+	font-size: 4vh;
 	font-weight: bold;
 	white-space: nowrap;
 	font-family: "Heebo", sans-serif;
@@ -173,7 +173,7 @@ li a {
 	background-color: #2c50aa;
 }
 #about_me_container {
-	height: 70vh;
+	height: 70%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -196,18 +196,17 @@ li a {
 	content: "";
 	display: block;
 	position: relative;
-	top: -24px;
-	width: 316px;
+	left: 10vw;
+	top: -20px;
 	height: 1px;
-	margin-left: 20px;
+	width: 20vw;
 	background-color: grey;
-	left: 9vw;
 }
 #about_me_content h4 {
 	text-align: justify;
 	font-weight: 100;
 	line-height: 4vh;
-	font-size: 1vw;
+	font-size: 1.1vw;
 }
 /* RIGHT */
 #profile_pic_wrapper {
@@ -255,16 +254,16 @@ li a {
 	content: "";
 	display: block;
 	position: relative;
-	width: 28vw;
-	height: 1px;
-	background-color: grey;
 	left: 3vw;
+	height: 1px;
+	width: 28vw;
+	background-color: grey;
 }
 #skills img {
 	height: 100px;
 }
 #skills_cards {
-	width: 40vw;
+	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -305,24 +304,21 @@ li a {
 	content: "";
 	display: block;
 	position: relative;
-	top: -24px;
-	width: 316px;
+	top: -22px;
+	width: 20vw;
 	height: 1px;
-	margin-left: 20px;
+	left: 12vw;
 	background-color: grey;
-	left: 9vw;
 }
 #port_cards {
-	width: 100%;
+	width: 70%;
 	margin: auto;
 }
 .port_card_wrapper {
-	width: 100%;
 	height: 90vh;
 	margin: auto;
 }
 .port_card_inner {
-	width: 100%;
 	height: 100%;
 	margin: auto;
 	display: flex;
@@ -339,28 +335,24 @@ li a {
 	filter: drop-shadow(1px 1px 5px grey);
 }
 .light .port_card_image {
-	left: -15vh;
+	left: -10vh;
 }
 .dark .port_card_image {
-	right: -15vh;
+	right: -10vh;
 }
 .port_card_a {
 	width: 100%;
 	height: 100%;
 }
 .port_card_background {
-	/* border-radius: 1vh; */
 	width: 100%;
 	height: 100%;
 	display: flex;
-	/* flex-direction: column; */
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
-	/* position: absolute; */
 }
 .port_card_desc {
-	width: 70%;
 	height: 65%;
 	padding: 3vh;
 	background-color: white;
@@ -393,7 +385,7 @@ li a {
 .techs_wrapper {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 .tech_div {
 	width: 5vw;
@@ -438,7 +430,7 @@ li a {
 	margin: 5vh;
 	border-radius: 50px;
 	background-color: white;
-	min-width: 50vh;
+	min-width: 22vw;
 }
 #email {
 	border: 3px solid black;
@@ -477,31 +469,242 @@ li a {
 	color: white;
 }
 
-@media screen and (max-width: 375px) {
-	#header {
-		height: 5vh;
-	}
+@media screen and (max-width: 450px) {
 	.reveal {
 		min-height: 40vh;
 	}
+	.section_title {
+		font-size: 1.6vh;
+	}
+	#header {
+		height: 5vh;
+	}
+	#header_icon {
+		width: 3vh;
+		height: 3vh;
+		border-radius: 0 1vh;
+	}
+	#home_container {
+		margin: 34% auto auto auto;
+	}
+	#home_intro h1 {
+		margin: 5px auto;
+	}
+	#avatar_wrapper {
+		width: 15vh;
+		height: 15vh;
+	}
+	#profile_header h1::after {
+		width: 20vw;
+		top: -10px;
+		left: 20vw;
+	}
+	#about_me_content {
+		width: 45%;
+		padding: 1vh;
+	}
+	#about_me_content h4 {
+		line-height: 1.2vh;
+		font-size: 1.5vw;
+	}
+	.profile_deco {
+		border-radius: 5px;
+	}
+	.deco-top {
+		border-top: 2px solid #fcdb65e6;
+		border-left: 2px solid #fcdb65e6;
+	}
+	.deco-bottom {
+		border-bottom: 2px solid #fcdb65e6;
+		border-right: 2px solid #fcdb65e6;
+	}
+	#skills_header::before {
+		width: 25vw;
+		left: 0;
+	}
+	#skills_cards {
+		width: 80%;
+	}
 	.skill_card {
-		width: 10vh;
-		height: 10vh;
+		width: 6vh;
+		height: 8vh;
+	}
+	.dodged {
+		margin-top: 10px;
 	}
 	.skill_card img {
 		width: 50%;
 	}
+	#portfolio_header h1::after {
+		top: -11px;
+		left: 22vw;
+		width: 25vw;
+	}
+	#port_cards {
+		width: 100%;
+	}
+	.port_card_desc {
+		border-radius: 2vh;
+		padding: 1vh 2vh;
+	}
+	.port_card_wrapper {
+		height: 25vh;
+	}
+	.port_card_image {
+		width: 100%;
+		height: 75%;
+	}
+	.light .port_card_image {
+		left: 0;
+		margin-right: 3vw;
+	}
+	.dark .port_card_image {
+		right: 0;
+		margin-left: 3vw;
+	}
+	.title {
+		font-size: 1.1vh;
+		margin: 5px;
+		text-decoration-thickness: 1px;
+	}
+	.tech_div {
+		margin: 2px;
+	}
+	.cta_button {
+		margin: 0;
+	}
 	#email,
 	#linkedin {
 		margin: 2vh;
-		min-width: 20vh;
+		min-width: 25vw;
+	}
+	#email {
+		border: 1px solid black;
+	}
+	#linkedin {
+		border: 1px solid #0a66c2;
 	}
 }
-@keyframes fadein {
-	0% {
-		opacity: 0;
+@media screen and (max-width: 1024px) {
+	.reveal {
+		min-height: 50vh;
 	}
-	100% {
-		opacity: 1;
+	.section_title {
+		font-size: 1.6vh;
+	}
+	#header {
+		height: 5vh;
+	}
+	#header_icon {
+		width: 3vh;
+		height: 3vh;
+		border-radius: 0 1vh;
+	}
+	#home_container {
+		margin: 23% auto auto auto;
+	}
+	#home_intro h1 {
+		margin: 5px auto;
+	}
+	#avatar_wrapper {
+		width: 15vh;
+		height: 15vh;
+	}
+	#profile_header h1::after {
+		width: 20vw;
+		top: -15px;
+		left: 12vw;
+	}
+	#about_me_content {
+		width: 45%;
+		padding: 0;
+	}
+	#about_me_content h4 {
+		line-height: 1.5vh;
+		font-size: 1.5vw;
+	}
+	.profile_deco {
+		border-radius: 5px;
+	}
+	.deco-top {
+		border-top: 3px solid #fcdb65e6;
+		border-left: 3px solid #fcdb65e6;
+	}
+	.deco-bottom {
+		border-bottom: 3px solid #fcdb65e6;
+		border-right: 3px solid #fcdb65e6;
+	}
+	#skills_header {
+		width: 32vw;
+	}
+	#skills_header::before {
+		width: 25vw;
+		left: 0;
+	}
+	#skills_cards {
+		width: 50%;
+	}
+	.skill_card {
+		width: 6vh;
+		height: 8vh;
+	}
+	.dodged {
+		margin-top: 10px;
+	}
+	.skill_card img {
+		width: 50%;
+	}
+	#portfolio_header h1::after {
+		top: -15px;
+		left: 14vw;
+		width: 25vw;
+	}
+	#port_cards {
+		width: 100%;
+	}
+	.port_card_wrapper {
+		height: 35vh;
+	}
+	.port_card_desc {
+		height: 75%;
+		padding: 1vh 2vh;
+		border-radius: 2vh;
+	}
+	.port_card_image {
+		width: 100%;
+		height: 75%;
+	}
+	.light .port_card_image {
+		left: 0;
+		margin-right: 3vw;
+	}
+	.dark .port_card_image {
+		right: 0;
+		margin-left: 3vw;
+	}
+	.port_card_desc_items {
+		width: 90%;
+	}
+	.title {
+		font-size: 1.1vh;
+		margin: 5px;
+		text-decoration-thickness: 1px;
+	}
+	.tech_div {
+		margin: 2px;
+	}
+	.cta_button {
+		margin: 0;
+	}
+	#email,
+	#linkedin {
+		margin: 2vh;
+		min-width: 25vw;
+	}
+	#email {
+		border: 1px solid black;
+	}
+	#linkedin {
+		border: 1px solid #0a66c2;
 	}
 }
