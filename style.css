@@ -330,7 +330,6 @@ li a {
 	height: 75%;
 	overflow: hidden;
 	position: relative;
-	transition: 0.3s;
 	border-radius: 1vh;
 	filter: drop-shadow(1px 1px 5px grey);
 }
@@ -697,8 +696,9 @@ li a {
 		width: 100%;
 	}
 	.port_card_desc {
-		border-radius: 2vh;
+		height: 80%;
 		padding: 1vh 2vh;
+		border-radius: 2vh;
 	}
 	.port_card_wrapper {
 		height: 25vh;
