@@ -396,8 +396,12 @@ li a {
 	text-align: center;
 	background-color: #fb3741;
 }
+.cta_wrapper {
+	display: flex;
+}
 .cta_button {
 	margin: 5px;
+	font-size: 1.5vw;
 	background-color: transparent;
 	border: 1px solid transparent;
 }
@@ -443,25 +447,21 @@ li a {
 	font-size: 1.5vw;
 	display: block;
 }
-#email:hover {
-	background-color: black;
-}
-#email a:hover,
-#email a:hover .fa-envelope {
-	color: white;
-}
 #linkedin a {
 	color: #0a66c2;
 	text-decoration: none;
 	font-size: 1.5vw;
 	display: block;
 }
-.fa-linkedin {
-	color: #0a66c2;
-	font-size: 1.5vw;
+#email:hover {
+	background-color: black;
 }
 #linkedin:hover {
 	background-color: #0a66c2;
+}
+#email a:hover,
+#email a:hover .fa-envelope {
+	color: white;
 }
 #linkedin a:hover,
 #linkedin a:hover .fa-linkedin {
@@ -745,9 +745,7 @@ li a {
 	#linkedin {
 		border: 1px solid #0a66c2;
 	}
-	#email a {
-		font-size: 2.5vw;
-	}
+	#email a,
 	#linkedin a {
 		font-size: 2.5vw;
 	}
