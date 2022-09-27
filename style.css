@@ -459,12 +459,10 @@ li a {
 #linkedin:hover {
 	background-color: #0a66c2;
 }
-#email a:hover,
-#email a:hover .fa-envelope {
+#email:hover a {
 	color: white;
 }
-#linkedin a:hover,
-#linkedin a:hover .fa-linkedin {
+#linkedin:hover a {
 	color: white;
 }
 @media screen and (max-width: 1024px) {

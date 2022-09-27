@@ -52,7 +52,10 @@ window.onload = function () {
 				let port_card_a = document.createElement("a");
 				port_card_a.target = "_blank";
 				port_card_a.className = "port_card_a";
-				port_card_a.href = data.portfolio[i].website;
+				port_card_a.href =
+					data.portfolio[i].website === ""
+						? data.portfolio[i].code
+						: data.portfolio[i].website;
 
 				let port_card_background = document.createElement("div");
 				port_card_background.className = "port_card_background";
@@ -110,8 +113,11 @@ window.onload = function () {
 				code.href = data.portfolio[i].code;
 				code.innerHTML = "<i class='fa-brands fa-github'></i>";
 
-				cta_wrapper.append(website_button, code_button);
-
+				if (data.portfolio[i].website !== "") {
+					cta_wrapper.append(website_button, code_button);
+				} else {
+					cta_wrapper.append(code_button);
+				}
 				port_card_desc_items.append(
 					title,
 					description,

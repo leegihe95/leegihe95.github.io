@@ -2,7 +2,7 @@
 	"portfolio": [
 		{
 			"title": "React Notes App",
-			"description": "React.js project made with function components and hooks (useEffect, useState) to create a notes app. The notes are saved in local storage so that the user can access them across multiple browsing sessions. The app includes a light/dark mode and sort by date (oldest to newest and vice-versa) functionality. For a better user experience, new and updated notes are bumped to the top or bottom of the list - depending on the sorting option - with a timestamp included. This app implements many features of React development, making extensive use of conditional rendering, spread operators, and array methods such as map(), filter() and find().",
+			"description": "Notes app project made with React.js using function components and hooks (useEffect, useState). The notes are saved in local storage so that the user can access them across multiple browsing sessions. The app includes a light/dark mode and sort by date functionality (oldest to newest and vice-versa). For a better user experience, new and updated notes are bumped to the top or bottom of the list - depending on the sorting option - with a timestamp included. This app implements many features of React development, making extensive use of conditional rendering, spread operators, and array methods such as map(), filter() and find().",
 			"techs": ["HTML5", "CSS3", "JavaScript", "React.js"],
 			"website": "https://leegihe95-reactnotesapp.netlify.app/",
 			"code": "https://github.com/leegihe95/react-notes-app",
@@ -18,7 +18,7 @@
 		},
 		{
 			"title": "Weather Website",
-			"description": "Simple weather app using HTML, CSS and JavaScript. The goal of the project was to successfully fetch data in JSON format from a third party API via AJAX request to display the current weather and the forecast for the following four days. The challenge of the project was to integrate an auto-complete feature which displays a list of matching cities and their countries.",
+			"description": "Simple weather app using HTML, CSS and JavaScript. The goal of the project was to successfully fetch data in JSON format from a third party API via AJAX request to display the current weather and the forecast for the next four days. The challenge of the project was to integrate an auto-complete feature which displays a list of matching cities and their countries.",
 			"techs": ["HTML5", "CSS3", "JavaScript"],
 			"website": "",
 			"code": "https://github.com/leegihe95/weather_website",
