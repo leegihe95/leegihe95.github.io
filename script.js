@@ -20,6 +20,7 @@ window.onload = function () {
 
 				let image = document.createElement("img");
 				image.src = data.skills[i].image_path;
+				image.alt = `${data.skills[i].title} image`;
 
 				skill_card.appendChild(image);
 				skills_cards.appendChild(skill_card);
